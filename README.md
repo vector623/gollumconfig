@@ -1,16 +1,13 @@
-#README#
-##prereqs##
-```bash
-sudo apt-get update
-sudo apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git
+# sample gollum configuration #
 
-sudo gem install gollum
-sudo gem install omnigollum
-sudo gem install github-markup
-```
+this is my personal configuration for notes I'll be taking at Metro Atlanta Seminary, starting the Summer 2018 session.
 
-##github oauth config###
-on [https://github.com/settings/applications](https://github.com/settings/applications), set
+## installation ##
+run `make install` and you're done
+
+## github oauth config ##
+on [https://github.com/settings/applications](https://github.com/settings/applications), setup the following
+for an application (with the hostname, gollum.xounges.net):
 
 application name: gollum.xounges.net
 homepage url: https://gollum.xounges.net

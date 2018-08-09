@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 WorkingDirectory=/var/www/gollum
-ExecStart=/usr/local/bin/gollum --show-all --config /var/www/gollum/config.rb /var/www/gollum/repo
+ExecStart=/usr/local/bin/gollum --show-all --config /var/www/gollum/config.rb /home/davidg/gits/seminarynotes
 
 Restart=on-abort
 
