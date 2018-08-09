@@ -9,6 +9,6 @@ run `make install` and you're done
 on [https://github.com/settings/applications](https://github.com/settings/applications), setup the following
 for an application (with the hostname, gollum.xounges.net):
 
-application name: gollum.xounges.net
-homepage url: https://gollum.xounges.net
-authorization callback url: https://gollum.xounges.net
+* application name: gollum.xounges.net
+* homepage url: https://gollum.xounges.net
+* authorization callback url: https://gollum.xounges.net
