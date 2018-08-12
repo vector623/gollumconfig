@@ -17,7 +17,7 @@ config.rb:
 /etc/letsencrypt/live/gollum.xounges.net/privkey.pem:
 
 /home/davidg/gits/seminarynotes:
-	git clone git@gitlab.com:tilt891/seminarynotes.git /home/davidg/gits/seminarynotes
+	#setup bare repo here and clone existing seminarynotes repo into it
 
 install: /etc/letsencrypt/live/gollum.xounges.net/fullchain.pem /etc/letsencrypt/live/gollum.xounges.net/privkey.pem /home/davidg/gits/seminarynotes config.rb gollum.conf.nginx gollum.service
 	-sudo systemctl stop gollum
